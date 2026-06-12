@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = 'https://taskapplibackend-84515hua.b4a.run/v1/user'
+const API_URL = 'https://taskapplibackend-84515hua.b4a.run/v1/user/'
 const register = async (userData) => {
 const response = await axios.post(API_URL, userData)
 if (response.data) {
