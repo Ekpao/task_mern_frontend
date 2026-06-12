@@ -23,7 +23,7 @@ const Dashboard = ()=> {
     const totalTasks = tasks ? tasks.length : 0;
     const completedTasks = tasks ? completedIds.length : 0
     const pendingTasks = tasks ? totalTasks - completedIds.length : 0
-const recentTasks = Array.isArray(tasks) ? [...tasks].reverse().slice(0, 3) : [];  
+    const recentTasks = Array.isArray(tasks) ? [...tasks].reverse().slice(0, 3) : [];  
 
     const onSubmit = (e) => {
       e.preventDefault() 

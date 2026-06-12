@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = '/v1/tache/'
+const API_URL = 'https://taskapplibackend-s57z6qk1.b4a.run/v1/tache/'
 
 const creatTask = async (taskData, token) => {
       const config = {
